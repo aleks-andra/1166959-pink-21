@@ -1,0 +1,32 @@
+.app-introduction {
+  background-color: $ebony-clay;
+  background-image: url("img/back-mobile.jpg") no-repeat;
+  font-family: "Open Sans", "Arial", sans-serif;
+  text-decoration: none;
+}
+
+.app-introduction__slogan {
+  color: $white;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.app-introduction__button {
+  text-decoration: none;
+  color: $white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.app-introduction__apps {
+  text-decoration: none;
+}
+
+.app-introduction__info {
+  color: $white;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
