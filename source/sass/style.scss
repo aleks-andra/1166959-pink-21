@@ -1,5 +1,8 @@
 // Начните писать стили здесь
 @import "global/variables.scss";
+@import "global/global.scss";
+@import "global/fonts.scss";
+@import "global/mixins.scss";
 @import "blocks/advantages.scss";
 @import "blocks/app-introduction.scss";
 @import "blocks/cards.scss";
@@ -16,6 +19,6 @@
 @import "blocks/prices.scss";
 @import "blocks/reviews.scss";
 @import "blocks/site-list.scss";
-@import "blocks/slider__toggles.scss";
+@import "blocks/slider.scss";
 @import "blocks/visually-hidden.scss";
 @import "blocks/widget.scss";
