@@ -1,0 +1,8 @@
+.site-list {
+  @include list-reset;
+}
+
+.site-list__link {
+  color: $white;
+  line-height: 32px;
+}

@@ -1,0 +1,30 @@
+.information {
+  background-color: $white;
+  background-image: url("img/grey-background.jpg");
+  color: $ebony-clay;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.information__slogan {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.information__item {
+  list-style: none;
+}
+
+.information__title {
+  color: $black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.information__description {
+  color: $ebony-clay;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}

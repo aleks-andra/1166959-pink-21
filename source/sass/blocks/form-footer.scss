@@ -1,0 +1,22 @@
+.form-footer {
+  background-color: $white;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.form-footer__social-item {
+  list-style-type: none;
+}
+
+.form-footer__social-link-twitter,
+.form-footer__social-link-facebook,
+.form-footer__social-link-youtube,
+.form-footer__copyright-text {
+  text-decoration: none;
+}
+
+.form-footer__copyright-text {
+  color: $ebony-clay;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -22,22 +23,22 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="main.html">
+              <a class="site-list__link">
                 Главная
               </a>
             </li>
             <li class="site-list__item">
-              <a class="photo.html">
+              <a class="site-list__link" href="photo.html">
                 Фотографии
               </a>
             </li>
             <li class="site-list__item">
-              <a class="contest.html">
+              <a class="site-list__link" href="contest.html">
                 Конкурс
               </a>
             </li>
             <li class="site-list__item">
-              <a class="#">
+              <a class="site-list__link" href="https://htmlacademy.ru">
                 HTML Academy
               </a>
             </li>
@@ -56,9 +57,15 @@
             Взгляните на жизнь иначе!
           </p>
           <a class="app-introduction__button" href="https://www.apple.com/ru/app-store/">Скачать приложение</a>
-          <a class="app-introduction__apps" href="https://www.apple.com/ru/app-store/">Скачать приложение для Apple</a>
-          <a class="app-introduction__apps" href="https://play.google.com/store/apps/">Скачать приложение для Android</a>
-          <a class="app-introduction__apps" href="https://www.microsoft.com/ru-ru/store/apps/windows">Скачать приложение для Windows</a>
+          <a class="app-introduction__apps" href="https://www.apple.com/ru/app-store/">
+            <span class="visually-hidden">Скачать приложение для Apple</span>
+          </a>
+          <a class="app-introduction__apps" href="https://play.google.com/store/apps/">
+            <span class="visually-hidden">Скачать приложение для Android</span>
+          </a>
+          <a class="app-introduction__apps" href="https://www.microsoft.com/ru-ru/store/apps/windows">
+            <span class="visually-hidden">Скачать приложение для Windows</span>
+          </a>
           <p class="app-introduction__info">
             Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
           </p>
@@ -76,7 +83,7 @@
               <h3 class="information__title">Меняет мир вокруг</h3>
               <p class="information__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
             </li>
-            <li class="information__title">
+            <li class="information__item">
               <h3 class="information__title">Заводит новых друзей</h3>
               <p class="information__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
             </li>
@@ -113,19 +120,19 @@
       <section class="prices">
         <h2 class="visually-hidden">Тарифные планы</h2>
         <div class="prices__wrapper slider">
-          <table class="prices__plans">
+          <table class="prices__details">
             <tr>
               <th class="visually-hidden">&nbsp;</th>
               <th class="prices__type">
-                <p class="prices__name">БАЗА</p>
+                <p class="prices__plan">БАЗА</p>
                 <p class="prices__amount">1,99 USD</p>
               </th>
               <th class="prices__type">
-                <p class="prices__name">СТАНДАРТ</p>
+                <p class="prices__plan">СТАНДАРТ</p>
                 <p class="prices__amount">3,99 USD</p>
               </th>
               <th class="prices__type">
-                <p class="prices__name">АНЛИМ</p>
+                <p class="prices__plan">АНЛИМ</p>
                 <p class="prices__amount">9,99 USD</p>
               </th>
             </tr>
@@ -161,12 +168,12 @@
           <div class="contacts__details">
             <p class="contacts__text">Звоните:</p>
             <a class="contacts__phone" href="tel:+78125556666">
-              <span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
+              <span class="contacts__phone-mobile">+7 (812) 555-66-66</span>
             </a>
           </div>
           <div class="contacts__details">
             <p class="contacts__text">Пишите:</p>
-            <a class="contacts__email" href="mailto:ask@htmlacademy.ru"><span class="contacts__text">mail@htmlacademy.ru</span></a>
+            <a class="contacts__email" href="mailto:ask@htmlacademy.ru"><span class="contacts__email-address">mail@htmlacademy.ru</span></a>
           </div>
           <div class="contacts__details">
             <p class="contacts__text">Приезжайте в гости:</p>
@@ -189,19 +196,19 @@
           <div class="form-footer__social">
             <ul class="form-footer__social-list">
               <li class="form-footer__social-item">
-                <a class="form-footer__social-link-twitter" href="https://twitter.com/htmlacademy">Мы в Твиттере</a>
+                <a class="form-footer__social-link-twitter" href="https://twitter.com/htmlacademy"><span class="visually-hidden">Мы в Твиттере</span></a>
               </li>
               <li class="form-footer__social-item">
-                <a class="form-footer__social-link-facebook" href="https://www.facebook.com/htmlacademy">Мы на Фейсбуке</a>
+                <a class="form-footer__social-link-facebook" href="https://www.facebook.com/htmlacademy"><span class="visually-hidden">Мы на Фейсбуке</span></a>
               </li>
               <li class="form-footer__social-item">
-                <a class="form-footer__social-link-youtube" href="https://www.youtube.com/htmlacademy">Мы на YouTube</a>
+                <a class="form-footer__social-link-youtube" href="https://www.youtube.com/htmlacademy"><span class="visually-hidden">Мы на YouTube</span></a>
               </li>
             </ul>
           </div>
           <div class="form-footer__copyright">
             <a class="form-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
-              <span>Разработано</span>
+              <span class="form-footer__copyright-text">Разработано</span>
               <svg width="27" height="34" viewBox="0 0 27 34" fill="none">
                 <path d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z" fill="#D22856"/>
               </svg>
@@ -209,7 +216,5 @@
           </div>
         </div>
       </footer>
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
   </body>
 </html>
